@@ -33,9 +33,10 @@ export default function Home() {
                             <span>Ayunda Maharani</span>
                         </div>
                         <div className="mt-4 text-sm text-gy-6 leading-7">
-                            2023년 11월 4일 토요일 낮 12:30
+                            Sabtu, 20 Juli 2024
                             <br />
-                            라비돌웨딩강남 2F 오뗄홀
+                            Jl. Tj. Raya II, Saigon, Kec. Pontianak Tim., Kota
+                            Pontianak, Kalimantan Barat 78242
                         </div>
                     </div>
                 </Intersect>
@@ -195,7 +196,14 @@ export default function Home() {
             <section className="my-20">
                 <Intersect>
                     <h2 className="text-center">오시는 길</h2>
-                    <NaverMap className="mt-5 mb-10 h-60 w-full" />
+                    <div className="mt-5 mb-10 h-60 w-full">
+                        <iframe
+                            width="600"
+                            height="450"
+                            loading="lazy"
+                            src="https://www.google.com/maps/dir//Jl.+Tj.+Raya+II,+Saigon,+Kec.+Pontianak+Tim.,+Kota+Pontianak,+Kalimantan+Barat+78242/@-0.0412479,109.2794526,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e1d59ff92f8a3c5:0xe25825f339c3d5d!2m2!1d109.3618546!2d-0.0412479?entry=ttu"
+                        ></iframe>
+                    </div>
                 </Intersect>
                 <Intersect>
                     <div className="ml-8 mr-6 mt-4">
@@ -266,43 +274,33 @@ export default function Home() {
                     </h2>
                     <div className="mt-8 mx-8">
                         <BankAccordion
-                            title="신랑측 계좌번호"
+                            title="Nomor rekening mempelai pria"
                             bankList={[
                                 {
                                     holder: 'Rizky Prasetya',
-                                    bank: '우리',
+                                    bank: 'BCA',
                                     number: '1002-563-763111',
                                 },
                                 {
-                                    holder: '김인환',
-                                    bank: '국민',
+                                    holder: 'Rizky Prasetya',
+                                    bank: 'BSI',
                                     number: '034-21-0812-232',
-                                },
-                                {
-                                    holder: '김옥현',
-                                    bank: '국민',
-                                    number: '404601-01-077682',
                                 },
                             ]}
                         />
                         <BankAccordion
                             className="mt-2"
-                            title="신부측 계좌번호"
+                            title="Nomor rekening mempelai wanita"
                             bankList={[
                                 {
                                     holder: 'Ayunda Maharani',
-                                    bank: '국민',
+                                    bank: 'BCA',
                                     number: '605102-04-117338',
                                 },
                                 {
-                                    holder: '김경복',
-                                    bank: '국민',
-                                    number: '043-24-0643-400',
-                                },
-                                {
-                                    holder: '김유정',
-                                    bank: '농협',
-                                    number: '356-0942-7634-43',
+                                    holder: 'Ayunda Maharani',
+                                    bank: 'BSI',
+                                    number: '605102-04-117338',
                                 },
                             ]}
                         />
@@ -311,7 +309,7 @@ export default function Home() {
             </section>
             <section className="my-10">
                 <Intersect>
-                    <h2 className="text-center">축하 메시지</h2>
+                    <h2 className="text-center">Bagikan momen indah kami</h2>
                     <div className="flex justify-center my-6">
                         <CommentFormDialog />
                     </div>
@@ -323,7 +321,7 @@ export default function Home() {
                     <Share />
                 </div>
                 <p className="mt-20 text-xs text-gy-6">
-                    © 2023{' '}
+                    © 2024{' '}
                     <a
                         href="https://bepyan.me/"
                         target="_blank"
