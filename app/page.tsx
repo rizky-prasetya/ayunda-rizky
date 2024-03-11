@@ -6,7 +6,6 @@ import Intersect from '~/components/cores/intersect';
 import { DividerIcon, PearlIcon } from '~/components/cores/icons';
 import InstaGallery from '~/components/insta-gallery';
 import MapInfo from '~/components/map-info';
-import NaverMap from '~/components/map-naver';
 import Share from '~/components/share';
 import VideoPlayer from '~/components/video-player';
 
@@ -52,13 +51,28 @@ export default function Home() {
             <section className="text-sm mt-10">
                 <Intersect>
                     <p className="text-center leading-7">
-                        모든 겸손과 온유로 하고 오래 참음으로
+                        "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
                         <br />
-                        사랑 가운데서 서로 용납하고 평안의 매는 줄로
+                        menciptakan pasangan-pasangan untukmu dari jenismu
                         <br />
-                        성령이 하나 되게 하신 것을 힘써 지키라
+                        sendiri, agar kamu cenderung dan merasa tenteram
                         <br />
-                        에베소서 4:2-3
+                        kepadanya, dan Dia menjadikan di antaramu rasa kasih dan
+                        <br />
+                        sayang. Sungguh, pada yang demikian itu benar-benar
+                        <br />
+                        terdapat tanda-tanda (kebesaran Allah) bagi kaum yang
+                        <br />
+                        berpikir."
+                        <br />
+                        <br />
+                        <a
+                            href="https://quran.com/ar-rum/21"
+                            target="_blank"
+                            className="font-bold"
+                        >
+                            QS. Ar-Rum 30:21
+                        </a>
                     </p>
                     <div className="flex justify-center my-10">
                         <PearlIcon />
@@ -156,52 +170,29 @@ export default function Home() {
                 </div>
                 <InstaGallery
                     images={[
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/bsjinj6er61Gi8AhyvU9KI7UgCo.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/2xcl5lJcnipI2gUZMtv3r8IoULA.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/qOLwQwGXfHZA8pq2Fp6mZdRcyrg.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/7GoGgCha7mLw5dIyToa17XKm1LY.JPG',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/gy3Uf-0Z7KuPtFHR6QqcO1Srlyg.jpg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/oxeT5DLWo_pOpS0lL0KZlUaHzZQ.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/DjaDny2JZhLIuoa6-k8Mt5Af9ng.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/CPzjfHa3iL1SBDSnU3TWx2csotM.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/blk6wPCPC7Sygu2C0sdIGB7FD4Y.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/BzqvC-vHXRVk1vZS_4I6OYnwi-E.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/V3fwqXuhDYyeyurrZ8OpF6j6ebg.jpg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/gwWkHxzvdFJ4BXoGuuOsZXfWueE.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/gCOr-6VDhSBRnQwmAd0qBRKhaUM.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/UKSINyu3UWRjawDBwKQkECBkRZY.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/ffCK-t-JGSeatpdY2L8MDzjsJzk.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/Xj6R_nRDTqe71_NFRH2K0U-b_dE.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/FesKqvkbdlfulwwj37JoZJQp-Rg.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/gf8lpnunOb0xf-0Sz2fAVmC9hGs.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/lJ8td5kywwANbwtTXj0_zq_AJ-M.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/VbWn2SRy2PQQrTgftzMAMP-Cwd8.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/NKh-6xR3iE293SCyEzaNhp9DHpI.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/8MVO5kXGjNCFrCYsSujHHLEaQKY.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/xgeio_Ltr7-bGzpbMuO1Wfplz1o.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/sItEmSPyBKqVe5gMKQWhOZ0K2n4.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/ZDbJZw_i3aoq1HE1kHWz8aI3ihU.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/6lW7BNmwEL07ag60YmpgCj_8NXc.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/v4NK9IKMz2A6ZtWpPwIn5smY3Z8.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/6opwqHGH4MlWcbDNdgJLohQDCxE.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/2lj6Nl17e9MrnWLbjbeGm39RBKw.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/GaZS1lCWbuSo4spa-ZxNu0-X_TM.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/8TJZ_OlCsXE9F-pbqH7fYxVAGDY.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/9nEaGz0XNtPQDM85W_BT30leMjA.jpeg',
-                        'https://t1.daumcdn.net/brunch/service/user/d4v5/image/0VExM2xYwz1YaJrllX9AgRR2cXY.jpeg',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0777.JPG?alt=media&token=e8800223-5987-4c05-be5b-dd04bcb32258',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0785.JPG?alt=media&token=51bbe318-0d0f-448e-9901-2ad328752ddf',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0786.JPG?alt=media&token=1f13ebe9-c909-4941-968f-a5451b1f80c1',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0787.JPG?alt=media&token=09e2e086-b0a3-448a-8656-68fe4395bede',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0788.JPG?alt=media&token=b30a6028-aa94-46f0-82fc-a4c0a34c5e10',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0789.JPG?alt=media&token=a943a03f-b979-422b-9de7-fa6e38c518f2',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0790.JPG?alt=media&token=de461183-44f6-43dd-8ad3-6553f633e8df',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0791.JPG?alt=media&token=96cd95c8-ed00-426c-8a19-a05c823e1b41',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0792.JPG?alt=media&token=57ac9f96-8c62-4117-b976-a84b5d1b0850',
+                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0793.JPG?alt=media&token=5fce0654-9efc-4324-9736-0c181586f9d9',
                     ]}
                 />
             </section>
             {/* 오시는 길 */}
             <section className="my-20">
                 <Intersect>
-                    <h2 className="text-center">오시는 길</h2>
-                    <div className="mt-5 mb-10 h-60 w-full">
+                    <h2 className="text-center">Alamat Resepsi</h2>
+                    <div className="mt-5 mb-20 h-60 w-full">
                         <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.3635806414426!2d109.36187540802483!3d-0.041171488746064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59ff92f8a3c5%3A0xe25825f339c3d5d!2sGedung%20Putih%20Jami&#39;ah!5e0!3m2!1sen!2sid!4v1710081384753!5m2!1sen!2sid"
                             width="600"
-                            height="450"
+                            height="280"
                             loading="lazy"
-                            src="https://www.google.com/maps/dir//Jl.+Tj.+Raya+II,+Saigon,+Kec.+Pontianak+Tim.,+Kota+Pontianak,+Kalimantan+Barat+78242/@-0.0412479,109.2794526,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e1d59ff92f8a3c5:0xe25825f339c3d5d!2m2!1d109.3618546!2d-0.0412479?entry=ttu"
                         ></iframe>
                     </div>
                 </Intersect>
