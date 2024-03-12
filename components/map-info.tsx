@@ -33,30 +33,30 @@ export default function MapInfo() {
                                 )
                             }
                         >
-                            주소 복사하기
+                            Salin alamat
                         </DropdownMenuItem>
                         <DropdownMenuItem
                             onSelect={() =>
                                 window.open(
-                                    'https://naver.me/55R8LihG',
+                                    'https://www.google.com/maps?ll=-0.041248,109.361855&z=20&t=m&hl=en&gl=ID&mapclient=embed&cid=1019364236068666717',
                                     '_blank',
                                 )
                             }
                             className="flex justify-between"
                         >
-                            네이버 지도
+                            GoogleMaps
                             <ArrowTopRightIcon />
                         </DropdownMenuItem>
                         <DropdownMenuItem
                             onSelect={() =>
                                 window.open(
-                                    'https://kko.to/bE8LIZYsA8',
+                                    'https://www.openstreetmap.org/#map=18/-0.04121/109.36190&layers=N',
                                     '_blank',
                                 )
                             }
                             className="flex justify-between"
                         >
-                            카카오맵
+                            OpenStreetMap
                             <ArrowTopRightIcon />
                         </DropdownMenuItem>
                     </DropdownMenuContent>

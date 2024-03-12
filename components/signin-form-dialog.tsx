@@ -55,12 +55,10 @@ export default function CommentFormDialog() {
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger className="inline-flex items-center justify-center gap-1 text-xs border rounded-full px-4 py-2 transition-colors active:bg-gray-50 select-none">
                 <SendIcon />
-                Berikan Ucapan & Do'a Restu
+                Kirim ucapan
             </DialogTrigger>
             <DialogContent className="w-10/12 rounded-lg border">
-                <DialogTitle className="p-4">
-                    Berikan Ucapan & Do'a Restu
-                </DialogTitle>
+                <DialogTitle className="p-4">Ucapkan selamat</DialogTitle>
                 <div className="px-4 pb-4">
                     <form className="" onSubmit={(e) => onSubmit(e)}>
                         <div className="flex gap-3">
@@ -82,7 +80,7 @@ export default function CommentFormDialog() {
                             disabled={loading}
                             name="message"
                             className="mt-3 resize-none"
-                            placeholder="Ucapkan sesuatu ..."
+                            placeholder="Tulis pesanmu ..."
                         />
                         <div className="mt-3 flex items-center gap-2">
                             <button

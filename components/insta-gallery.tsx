@@ -67,7 +67,7 @@ export default function InstaGallery({ images }: { images: string[] }) {
                         onClick={onClickMore}
                     >
                         <DownIcon className="text-gy-6" />
-                        사진 더보기
+                        Lihat foto lainnya
                     </button>
                 )}
             </div>

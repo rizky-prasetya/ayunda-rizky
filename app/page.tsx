@@ -14,6 +14,19 @@ export default function Home() {
         <main className="container">
             {/* 동영상 */}
             <section className="my-20">
+                <Intersect>
+                    <h1 className="flex items-center justify-center">
+                        <span>Rizky Prasetya</span>
+                    </h1>
+                    <h1 className="flex items-center justify-center">
+                        <DividerIcon />
+                    </h1>
+                    <h1 className="flex items-center justify-center">
+                        <span>Ayunda Maharani</span>
+                    </h1>
+                </Intersect>
+            </section>
+            <section className="my-20">
                 <VideoPlayer />
             </section>
             {/* */}
@@ -110,43 +123,51 @@ export default function Home() {
                         <span>장녀</span>
                         <strong>샛별</strong>
                     </div>
-                    <div className="mt-14 text-center">
-                        <ContactDialog
-                            groomList={[
-                                {
-                                    designation: '신랑',
-                                    name: 'Rizky Prasetya',
-                                    phone: '010-5483-4475',
-                                },
-                                {
-                                    designation: '신랑 父',
-                                    name: '김인환',
-                                    phone: '010-3766-4475',
-                                },
-                                {
-                                    designation: '신랑 母',
-                                    name: '김옥현',
-                                    phone: '010-5390-8473',
-                                },
-                            ]}
-                            priestList={[
-                                {
-                                    designation: '신부',
-                                    name: 'Ayunda Maharani',
-                                    phone: '010-8411-8385',
-                                },
-                                {
-                                    designation: '신부 父',
-                                    name: '김경복',
-                                    phone: '010-5112-5683',
-                                },
-                                {
-                                    designation: '신부 母',
-                                    name: '김유정',
-                                    phone: '010-2995-5683',
-                                },
-                            ]}
-                        />
+                    <div className="ml-8 mr-6 mt-4">
+                        <div className="mt-10 mx-8 space-y-4">
+                            <div className="flex">
+                                <span className="flex-shrink-0 w-14">Akad</span>
+                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
+                                    <div className="flex gap-0.5">
+                                        <span>Jam 13:00 - 17:00</span>
+                                    </div>
+                                    <div className="flex gap-0.5">
+                                        <span>Sabtu, 20 Juli 2024</span>
+                                    </div>
+                                    <div className="flex gap-0.5">
+                                        <span>
+                                            Gedung Putih Jami'ah (Jl. Tj. Raya
+                                            II, Saigon, Kec. Pontianak Timur,
+                                            Kota Pontianak Kalimantan Barat
+                                            78242)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex">
+                                <span className="flex-shrink-0 w-14">
+                                    Resepsi
+                                </span>
+                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
+                                    <div className="flex gap-0.5">
+                                        <span>Jam 08:00 - Selesai</span>
+                                    </div>
+                                    <div className="flex gap-0.5">
+                                        <span>Sabtu, 20 Juli 2024</span>
+                                    </div>
+                                    <div className="flex gap-0.5">
+                                        <span>
+                                            Gedung Putih Jami'ah (Jl. Tj. Raya
+                                            II, Saigon, Kec. Pontianak Timur,
+                                            Kota Pontianak Kalimantan Barat
+                                            78242)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </Intersect>
             </section>
@@ -199,61 +220,6 @@ export default function Home() {
                 <Intersect>
                     <div className="ml-8 mr-6 mt-4">
                         <MapInfo />
-                    </div>
-                    <div className="mt-10 mx-8 space-y-4">
-                        <div className="flex">
-                            <span className="flex-shrink-0 w-14">지하철</span>
-                            <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                            <div className="text-xs text-gy-6 mt-[1px] space-y-0.5">
-                                <p>[2호선 강남역] 1번 출구 도보 10분</p>
-                                <div className="flex gap-0.5">
-                                    *
-                                    <span>
-                                        셔틀버스 강남역 1번 출구 수시 운행
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex">
-                            <span className="flex-shrink-0 w-14">버스</span>
-                            <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                            <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
-                                <p>
-                                    간선: 140, 146, 341, 360, 400, 402, 420,
-                                    440, 441, 452, 470, 541, 542, 740, 741
-                                </p>
-                                <p>
-                                    광역 : 9404, 9408, M4403, M4434, M5438,
-                                    M6427, M6439, M7412
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex">
-                            <span className="flex-shrink-0 w-14">주차</span>
-                            <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                            <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
-                                <p>
-                                    건물 내 주차장 600대 가능
-                                    <br />
-                                    (무료주차 1시간 30분)
-                                </p>
-                                <div className="flex gap-0.5">
-                                    *
-                                    <span>
-                                        주차장 이용이 혼잡하오니 불편하시더라도
-                                        대중교통 이용을 권장 드립니다.
-                                    </span>
-                                </div>
-                                <div className="flex gap-0.5">
-                                    *
-                                    <span>
-                                        만차 시 제2주차장으로 안내해 드릴 수
-                                        있으니 여유롭게 도착하셔서 안내
-                                        받으시기를 바랍니다.
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </Intersect>
             </section>
