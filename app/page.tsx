@@ -51,7 +51,7 @@ export default function Home() {
             <section className="text-sm mt-10">
                 <Intersect>
                     <p className="text-center leading-7">
-                        "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
+                        Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
                         <br />
                         menciptakan pasangan-pasangan untukmu dari jenismu
                         <br />
@@ -63,7 +63,7 @@ export default function Home() {
                         <br />
                         terdapat tanda-tanda (kebesaran Allah) bagi kaum yang
                         <br />
-                        berpikir."
+                        berpikir.
                         <br />
                         <br />
                         <a
