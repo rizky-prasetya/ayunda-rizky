@@ -15,7 +15,10 @@ export default function Home() {
             {/* 동영상 */}
             <section className="my-20">
                 <Intersect>
-                    <h1 className="flex items-center justify-center">
+                    <div className="flex justify-center my-4">
+                        <PearlIcon />
+                    </div>
+                    {/* <h1 className="flex items-center justify-center">
                         <span>Rizky Prasetya</span>
                     </h1>
                     <h1 className="flex items-center justify-center">
@@ -23,7 +26,7 @@ export default function Home() {
                     </h1>
                     <h1 className="flex items-center justify-center">
                         <span>Ayunda Maharani</span>
-                    </h1>
+                    </h1> */}
                 </Intersect>
             </section>
             <section className="my-20">
