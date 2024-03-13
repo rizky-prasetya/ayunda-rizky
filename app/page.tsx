@@ -1,7 +1,6 @@
 import BankAccordion from '~/components/bank-accordion';
 import CommentFormDialog from '~/components/comment-form-dialog';
 import CommentList from '~/components/comment-list';
-import ContactDialog from '~/components/contact-dialog';
 import Intersect from '~/components/cores/intersect';
 import { DividerIcon, PearlIcon } from '~/components/cores/icons';
 import InstaGallery from '~/components/insta-gallery';
