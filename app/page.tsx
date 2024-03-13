@@ -87,7 +87,7 @@ export default function Home() {
                         <PearlIcon />
                     </div>
                     <p className="text-center leading-7">
-                        <h2 className="font-serif_en text-center text-xl">
+                        <h2 className="font-serif_en font-bold text-center text-xl">
                             Assalamualaikum Wr. Wb
                         </h2>
                         <br />
