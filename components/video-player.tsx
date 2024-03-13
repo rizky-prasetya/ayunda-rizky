@@ -7,7 +7,7 @@ export default function VideoPlayer() {
     const [muted, setMuted] = useState(true);
 
     const onClick = () => {
-        setMuted(false);
+        setMuted(!muted);
     };
 
     return (

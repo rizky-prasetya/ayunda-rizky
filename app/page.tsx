@@ -12,22 +12,13 @@ export default function Home() {
     return (
         <main className="container">
             {/* 동영상 */}
-            <section className="my-20">
+            {/* <section className="my-20">
                 <Intersect>
                     <div className="flex justify-center my-4">
                         <PearlIcon />
                     </div>
-                    {/* <h1 className="flex items-center justify-center">
-                        <span>Rizky Prasetya</span>
-                    </h1>
-                    <h1 className="flex items-center justify-center">
-                        <DividerIcon />
-                    </h1>
-                    <h1 className="flex items-center justify-center">
-                        <span>Ayunda Maharani</span>
-                    </h1> */}
                 </Intersect>
-            </section>
+            </section> */}
             <section className="my-20">
                 <VideoPlayer />
             </section>
@@ -35,28 +26,25 @@ export default function Home() {
             <section className="bg-white mt-20">
                 <Intersect>
                     <h2 className="font-serif_en text-center font-bold text-xl">
-                        wedding invitation
+                        WEDDING INVITATION
                     </h2>
                     <div className="flex justify-center my-4">
                         <PearlIcon />
                     </div>
                     <div className="text-center">
                         <div className="flex justify-center items-center gap-1">
-                            <span className="font-serif_en font-bold">
+                            <span className="font-serif_en font-bold text-xl">
                                 Rizky Prasetya
                             </span>
                             <DividerIcon />
-                            <span className="font-serif_en font-bold">
+                            <span className="font-serif_en font-bold text-xl">
                                 Ayunda Maharani
                             </span>
                         </div>
-                        <div className="mt-4 text-sm text-gy-6 leading-7">
-                            Sabtu, 20 Juli 2024
+                        <div className="mt-4 text-xs text-gy-6 leading-7">
+                            Sabtu, 20 Juli 2024 Pukul 08:00 - 17:00 WIB
                             <br />
                             Gedung Putih Jami'ah
-                            <br />
-                            Jl. Tanjung Raya II, Saigon, Kec. Pontianak Timur,
-                            Kota Pontianak
                         </div>
                     </div>
                 </Intersect>
@@ -90,7 +78,7 @@ export default function Home() {
                         <a
                             href="https://quran.com/ar-rum/21"
                             target="_blank"
-                            className="font-bold font-serif_en"
+                            className="font-bold text-base font-serif_en"
                         >
                             QS. Ar-Rum 30:21
                         </a>
@@ -115,24 +103,48 @@ export default function Home() {
                     </p>
                 </Intersect>
                 <Intersect>
-                    <div className="mt-14 flex items-center justify-center gap-3">
-                        <strong>Rizky Prasetya</strong>
-                        <span>Putra tunggal dari</span>
-                        <div>
-                            <div>Bapak Suparno</div>
-                            <div>Ibu Jumiati (Alm)</div>
-                        </div>
-                    </div>
-                    <div className="mt-5 flex items-center justify-center gap-3">
-                        <strong>Ayunda Maharani</strong>
-                        <span>Putri pertama dari</span>
-                        <div>
-                            <div>Bapak Iskandar</div>
-                            <div>Ibu Lisna</div>
+                    <div className="ml-8 mr-6 mt-4 flex items-center justify-center">
+                        <div className="mt-10 mx-8 space-y-5 text-base">
+                            <div className="flex">
+                                <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-4">
+                                    Rizky Prasetya
+                                </span>
+                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                <span className="flex-shrink-0 w-16 text-xs text-gy-6">
+                                    Putra dari
+                                </span>
+                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
+                                    <div className="flex gap-0.5">
+                                        <span>Bapak Suparno</span>
+                                    </div>
+                                    <div className="flex gap-0.5">
+                                        <span>Ibu Jumiati (Alm)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex">
+                                <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-4">
+                                    Ayunda Maharani
+                                </span>
+                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                <span className="flex-shrink-0 w-16 text-xs text-gy-6">
+                                    Putri dari
+                                </span>
+                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
+                                    <div className="flex gap-0.5">
+                                        <span>Bapak Iskandar</span>
+                                    </div>
+                                    <div className="flex gap-0.5">
+                                        <span>Ibu Lisna</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="ml-8 mr-6 mt-4">
-                        <div className="mt-10 mx-8 space-y-4">
+                        <div className="mt-10 mx-8 space-y-4 text-base">
                             <div className="flex">
                                 <span className="flex-shrink-0 w-14 font-serif_en font-bold">
                                     Akad
@@ -140,7 +152,7 @@ export default function Home() {
                                 <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
                                 <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
                                     <div className="flex gap-0.5">
-                                        <span>Jam 13:00 - 17:00</span>
+                                        <span>Pukul 08:00 - 11:00 WIB</span>
                                     </div>
                                     <div className="flex gap-0.5">
                                         <span>Sabtu, 20 Juli 2024</span>
@@ -162,7 +174,7 @@ export default function Home() {
                                 <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
                                 <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
                                     <div className="flex gap-0.5">
-                                        <span>Jam 08:00 - Selesai</span>
+                                        <span>Pukul 13:00 - 17:00 WIB</span>
                                     </div>
                                     <div className="flex gap-0.5">
                                         <span>Sabtu, 20 Juli 2024</span>
@@ -223,7 +235,7 @@ export default function Home() {
                     <div className="mt-5 mb-20 h-60 w-full">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.3635806414426!2d109.36187540802483!3d-0.041171488746064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59ff92f8a3c5%3A0xe25825f339c3d5d!2sGedung%20Putih%20Jami&#39;ah!5e0!3m2!1sen!2sid!4v1710081384753!5m2!1sen!2sid"
-                            width="600"
+                            width="100%"
                             height="280"
                             loading="lazy"
                         ></iframe>
@@ -239,7 +251,7 @@ export default function Home() {
             <section className="my-20">
                 <Intersect>
                     <h2 className="text-center font-serif_en font-bold text-xl">
-                        Jika berkenan, berikan kado untuk kami
+                        Beri Kado
                     </h2>
                     <div className="mt-8 mx-8">
                         <BankAccordion

@@ -12,7 +12,7 @@ import { ArrowTopRightIcon, MapPointIcon } from './cores/icons';
 export default function MapInfo() {
     return (
         <div className="relative">
-            <p>
+            <p className="text-sm">
                 <b>Gedung Putih Jami'ah</b>
                 <br />
                 Jl. Tj. Raya II, Saigon, Kec. Pontianak Timur, Kota Pontianak
