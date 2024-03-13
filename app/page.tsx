@@ -35,7 +35,7 @@ export default function Home() {
             {/* */}
             <section className="bg-white mt-20">
                 <Intersect>
-                    <h2 className="font-serif_en text-center text-xl">
+                    <h2 className="font-serif_en text-center font-bold text-xl">
                         wedding invitation
                     </h2>
                     <div className="flex justify-center my-4">
@@ -43,15 +43,21 @@ export default function Home() {
                     </div>
                     <div className="text-center">
                         <div className="flex justify-center items-center gap-1">
-                            <span>Rizky Prasetya</span>
+                            <span className="font-serif_en font-bold">
+                                Rizky Prasetya
+                            </span>
                             <DividerIcon />
-                            <span>Ayunda Maharani</span>
+                            <span className="font-serif_en font-bold">
+                                Ayunda Maharani
+                            </span>
                         </div>
                         <div className="mt-4 text-sm text-gy-6 leading-7">
                             Sabtu, 20 Juli 2024
                             <br />
-                            Jl. Tj. Raya II, Saigon, Kec. Pontianak Tim., Kota
-                            Pontianak, Kalimantan Barat 78242
+                            Gedung Putih Jami'ah
+                            <br />
+                            Jl. Tanjung Raya II, Saigon, Kec. Pontianak Timur,
+                            Kota Pontianak
                         </div>
                     </div>
                 </Intersect>
@@ -85,7 +91,7 @@ export default function Home() {
                         <a
                             href="https://quran.com/ar-rum/21"
                             target="_blank"
-                            className="font-bold"
+                            className="font-bold font-serif_en"
                         >
                             QS. Ar-Rum 30:21
                         </a>
@@ -94,42 +100,44 @@ export default function Home() {
                         <PearlIcon />
                     </div>
                     <p className="text-center leading-7">
-                        하나님의 섬세하신 계획 아래
+                        <h2 className="font-serif_en text-center text-xl">
+                            Assalamualaikum Wr. Wb
+                        </h2>
                         <br />
-                        사랑과 순종함으로 만나
+                        Dengan memohon Rahmat dan Ridho Illahi,
                         <br />
-                        이제 연합하여 새로운 가정을 이루려 합니다.
+                        teriring niat menjalankan Sunnah Rasulullah ﷺ
                         <br />
-                        서로를 사랑함으로 하나님을 기쁘시게 하고
+                        untuk membentuk rumah tangga yang Sakinah, Mawaddah
                         <br />
-                        이웃을 섬기는 선한 가정을 이룰 수 있게
+                        wa Rahmah, kami mohon do'a agar senantiasa diberikan
                         <br />
-                        오셔서 축복해 주시면 감사하겠습니다.
+                        kelancaran dan keberkahan
                     </p>
                 </Intersect>
                 <Intersect>
                     <div className="mt-14 flex items-center justify-center gap-3">
+                        <strong>Rizky Prasetya</strong>
+                        <span>Putra tunggal dari</span>
                         <div>
-                            <div>김인환</div>
-                            <div>김옥현</div>
+                            <div>Bapak Suparno</div>
+                            <div>Ibu Jumiati (Alm)</div>
                         </div>
-                        <span>의</span>
-                        <span>차남</span>
-                        <strong>경찬</strong>
                     </div>
                     <div className="mt-5 flex items-center justify-center gap-3">
+                        <strong>Ayunda Maharani</strong>
+                        <span>Putri pertama dari</span>
                         <div>
-                            <div>김경복</div>
-                            <div>김유정</div>
+                            <div>Bapak Iskandar</div>
+                            <div>Ibu Lisna</div>
                         </div>
-                        <span>의</span>
-                        <span>장녀</span>
-                        <strong>샛별</strong>
                     </div>
                     <div className="ml-8 mr-6 mt-4">
                         <div className="mt-10 mx-8 space-y-4">
                             <div className="flex">
-                                <span className="flex-shrink-0 w-14">Akad</span>
+                                <span className="flex-shrink-0 w-14 font-serif_en font-bold">
+                                    Akad
+                                </span>
                                 <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
                                 <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
                                     <div className="flex gap-0.5">
@@ -149,7 +157,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="flex">
-                                <span className="flex-shrink-0 w-14">
+                                <span className="flex-shrink-0 w-14 font-serif_en font-bold">
                                     Resepsi
                                 </span>
                                 <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
@@ -210,7 +218,9 @@ export default function Home() {
             {/* 오시는 길 */}
             <section className="my-20">
                 <Intersect>
-                    <h2 className="text-center">Alamat Resepsi</h2>
+                    <h2 className="text-center font-serif_en font-bold text-xl">
+                        Alamat Resepsi
+                    </h2>
                     <div className="mt-5 mb-20 h-60 w-full">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.3635806414426!2d109.36187540802483!3d-0.041171488746064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59ff92f8a3c5%3A0xe25825f339c3d5d!2sGedung%20Putih%20Jami&#39;ah!5e0!3m2!1sen!2sid!4v1710081384753!5m2!1sen!2sid"
@@ -229,7 +239,7 @@ export default function Home() {
             {/* 계좌번호 */}
             <section className="my-20">
                 <Intersect>
-                    <h2 className="text-center">
+                    <h2 className="text-center font-serif_en font-bold text-xl">
                         Jika berkenan, berikan kado untuk kami
                     </h2>
                     <div className="mt-8 mx-8">
@@ -269,7 +279,9 @@ export default function Home() {
             </section>
             <section className="my-10">
                 <Intersect>
-                    <h2 className="text-center">Bagikan momen indah kami</h2>
+                    <h2 className="text-center font-serif_en font-bold text-xl">
+                        Ucapkan Sesuatu
+                    </h2>
                     <div className="flex justify-center my-6">
                         <CommentFormDialog />
                     </div>
