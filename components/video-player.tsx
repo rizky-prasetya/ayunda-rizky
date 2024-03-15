@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { VolumeOffIcon } from './cores/icons';
+import { VolumeOffIcon, VolumeOnIcon } from './cores/icons';
 
 export default function VideoPlayer() {
     const [muted, setMuted] = useState(true);
@@ -30,15 +30,13 @@ export default function VideoPlayer() {
                     Browser tidak mendukung pemutaran video
                 </video>
             </div>
-            {muted && (
-                <button
-                    className="absolute top-4 left-4 z-1 flex gap-1 items-center px-2 py-1 rounded-lg text-xs bg-gray-50/90 active:bg-gray-100"
-                    onClick={onClick}
-                >
-                    <VolumeOffIcon />
-                    Unmute
-                </button>
-            )}
+            <button
+                className="absolute top-4 left-4 z-1 flex gap-1 items-center px-2 py-1 rounded-lg text-xs bg-gray-50/90 active:bg-gray-100"
+                onClick={onClick}
+            >
+                {muted ? <VolumeOffIcon /> : <VolumeOnIcon />}
+                {muted ? 'Unmute' : 'Mute'}
+            </button>
         </div>
     );
 }

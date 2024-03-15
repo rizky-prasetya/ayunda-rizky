@@ -86,7 +86,7 @@ export default function Home() {
                     <div className="flex justify-center my-10">
                         <PearlIcon />
                     </div>
-                    <p className="text-center leading-7">
+                    <div className="text-center leading-7">
                         <h2 className="font-serif_en font-bold text-center text-xl">
                             Assalamualaikum Wr. Wb
                         </h2>
@@ -100,7 +100,7 @@ export default function Home() {
                         wa Rahmah, kami mohon do'a agar senantiasa diberikan
                         <br />
                         kelancaran dan keberkahan
-                    </p>
+                    </div>
                 </Intersect>
                 <Intersect>
                     <div className="ml-8 mr-6 mt-4 flex items-center justify-center">
