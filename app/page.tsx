@@ -60,23 +60,21 @@ export default function Home() {
             <section className="text-sm mt-10">
                 <Intersect>
                     <p className="text-center leading-7">
-                        Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
+                        Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia
                         <br />
-                        menciptakan pasangan-pasangan untukmu dari jenismu
+                        menciptakan pasangan-pasangan untukmu dari (jenis)
                         <br />
-                        sendiri, agar kamu cenderung dan merasa tenteram
+                        dirimu sendiri agar kamu merasa tenteram kepadanya. Dia
                         <br />
-                        kepadanya, dan Dia menjadikan di antaramu rasa kasih dan
+                        menjadikan di antaramu rasa cinta dan kasih sayang.
                         <br />
-                        sayang. Sungguh, pada yang demikian itu benar-benar
+                        Sesungguhnya pada yang demikian itu benar-benar terdapat
                         <br />
-                        terdapat tanda-tanda (kebesaran Allah) bagi kaum yang
-                        <br />
-                        berpikir.
+                        tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
                         <br />
                         <br />
                         <a
-                            href="https://quran.com/ar-rum/21"
+                            href="https://quran.nu.or.id/ar-rum/21"
                             target="_blank"
                             className="font-bold text-base font-serif_en"
                         >
