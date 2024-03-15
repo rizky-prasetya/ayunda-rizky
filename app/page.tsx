@@ -106,38 +106,50 @@ export default function Home() {
                     <div className="ml-8 mr-6 mt-4 flex items-center justify-center">
                         <div className="mt-10 mx-8 space-y-5 text-base">
                             <div className="flex">
-                                <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-4">
-                                    Rizky Prasetya
-                                </span>
-                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                                <span className="flex-shrink-0 w-16 text-xs text-gy-6">
-                                    Putra dari
-                                </span>
-                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                                <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
-                                    <div className="flex gap-0.5">
-                                        <span>Bapak Suparno</span>
-                                    </div>
-                                    <div className="flex gap-0.5">
-                                        <span>Ibu Jumiati (Alm)</span>
+                                <div className="flex items-center justify-center">
+                                    <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-6">
+                                        Rizky Prasetya
+                                    </span>
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                    <span className="flex-shrink-0 w-16 text-xs text-gy-6">
+                                        Putra dari
+                                    </span>
+                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
+                                        <div className="flex gap-0.5">
+                                            <span>Bapak Suparno</span>
+                                        </div>
+                                        <div className="flex gap-0.5">
+                                            <span>Ibu Jumiati (Alm)</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="flex">
-                                <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-4">
-                                    Ayunda Maharani
-                                </span>
-                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                                <span className="flex-shrink-0 w-16 text-xs text-gy-6">
-                                    Putri dari
-                                </span>
-                                <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                                <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
-                                    <div className="flex gap-0.5">
-                                        <span>Bapak Iskandar</span>
-                                    </div>
-                                    <div className="flex gap-0.5">
-                                        <span>Ibu Lisna</span>
+                                <div className="flex items-center justify-center">
+                                    <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-6">
+                                        Ayunda Maharani
+                                    </span>
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                    <span className="flex-shrink-0 w-16 text-xs text-gy-6">
+                                        Putri dari
+                                    </span>
+                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
+                                        <div className="flex gap-0.5">
+                                            <span>Bapak Iskandar</span>
+                                        </div>
+                                        <div className="flex gap-0.5">
+                                            <span>Ibu Lisna</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +211,7 @@ export default function Home() {
                     <img
                         className="w-full h-full aspect-4/5"
                         src="https://t1.daumcdn.net/brunch/service/user/d4v5/image/o6wwaaNlcBXNIuS2eaJojLOwEi4.jpeg"
-                        alt="달력"
+                        alt="Rizky & Ayunda"
                     />
                 </div>
             </section>
@@ -208,7 +220,7 @@ export default function Home() {
                 <div className="my-16 select-none pointer-events-none">
                     <img
                         src="https://t1.daumcdn.net/brunch/service/user/d4v5/image/_3Sv7kwk5kNGbOd1Z_xz975esNk.gif"
-                        alt="갤러리"
+                        alt="Rizky & Ayunda"
                     />
                 </div>
                 <InstaGallery
@@ -312,7 +324,7 @@ export default function Home() {
                     >
                         bepyan
                     </a>
-                    . All rights reserved.
+                    . All rights reserved. | Reimagined by Everwed.id
                 </p>
             </footer>
         </main>
