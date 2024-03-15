@@ -41,7 +41,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="ko" className={fontVariable}>
+        <html lang="id-ID" className={fontVariable}>
             <PreloadResources />
             <body className="font-serif">
                 {children}
