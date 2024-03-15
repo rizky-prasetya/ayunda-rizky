@@ -98,7 +98,7 @@ export default function CommentFormDialog() {
                                 type="submit"
                                 className="flex-[2]"
                             >
-                                Hapus ucapan
+                                Kirim
                             </Button>
                         </div>
                     </form>
