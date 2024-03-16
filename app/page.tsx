@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="mt-10">
                     <img
                         className="w-full h-full aspect-4/3 pointer-events-none"
-                        src="https://t1.daumcdn.net/brunch/service/user/d4v5/image/ZW3pLUS0Yu60Q81nwUiTdo7RWNc.jpeg"
+                        src="https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/POLAROID.png?alt=media&token=ec371b8f-d603-47dc-9448-ff36407d0bf8"
                         alt=""
                     />
                 </div>
@@ -208,7 +208,7 @@ export default function Home() {
                 <div className="relative select-none pointer-events-none">
                     <img
                         className="w-full h-full aspect-4/5"
-                        src="https://t1.daumcdn.net/brunch/service/user/d4v5/image/o6wwaaNlcBXNIuS2eaJojLOwEi4.jpeg"
+                        src="https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/TANGGAL.png?alt=media&token=bb4d3057-4669-4fbc-890e-1bd920ee70cf"
                         alt="Rizky & Ayunda"
                     />
                 </div>
@@ -217,7 +217,7 @@ export default function Home() {
             <section>
                 <div className="my-16 select-none pointer-events-none">
                     <img
-                        src="https://t1.daumcdn.net/brunch/service/user/d4v5/image/_3Sv7kwk5kNGbOd1Z_xz975esNk.gif"
+                        src="https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/WEDDING.gif?alt=media&token=97af3d72-96c4-474d-ac15-7bf428673313"
                         alt="Rizky & Ayunda"
                     />
                 </div>
