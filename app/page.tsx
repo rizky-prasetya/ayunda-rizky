@@ -101,8 +101,8 @@ export default function Home() {
                     </div>
                 </Intersect>
                 <Intersect>
-                    <div className="ml-8 mr-6 mt-4 flex items-center justify-center">
-                        <div className="mt-10 mx-8 space-y-5 text-base">
+                    <div className="ml-8 mr-6 mt-8 flex items-center justify-center">
+                        <div className="mx-8 space-y-6 text-base">
                             <div className="flex">
                                 <div className="flex items-center justify-center">
                                     <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-6">
@@ -153,7 +153,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="ml-8 mr-6 mt-4">
+                    <div className="ml-8 mr-6 mt-8">
                         <div className="mt-10 mx-8 space-y-4 text-base">
                             <div className="flex">
                                 <span className="flex-shrink-0 w-14 font-serif_en font-bold">
@@ -242,7 +242,7 @@ export default function Home() {
                     <h2 className="text-center font-serif_en font-bold text-xl">
                         Alamat Resepsi
                     </h2>
-                    <div className="mt-5 mb-20 h-60 w-full">
+                    <div className="mt-8 mb-20 h-60 w-full">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.3635806414426!2d109.36187540802483!3d-0.041171488746064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59ff92f8a3c5%3A0xe25825f339c3d5d!2sGedung%20Putih%20Jami&#39;ah!5e0!3m2!1sen!2sid!4v1710081384753!5m2!1sen!2sid"
                             width="100%"
