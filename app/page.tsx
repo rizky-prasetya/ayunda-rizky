@@ -313,17 +313,22 @@ export default function Home() {
                 <div className="flex items-center justify-center">
                     <Share />
                 </div>
-                <p className="mt-20 text-xs text-gy-6">
-                    © 2024{' '}
-                    <a
-                        href="https://bepyan.me/"
-                        target="_blank"
-                        className="font-bold"
-                    >
-                        bepyan
-                    </a>
-                    . All rights reserved. | Reimagined by Everwed.id
-                </p>
+                <div className="mt-20 flex flex-col space-y-3 md:space-y-0 md:flex-row md:justify-between items-center text-xs text-gy-6">
+                    <p>
+                        © 2024{' '}
+                        <a
+                            href="https://bepyan.me/"
+                            target="_blank"
+                            className="font-bold"
+                        >
+                            bepyan
+                        </a>
+                        . All rights reserved.
+                    </p>
+                    <p className="text-[11px] md:text-xs">
+                        Made with ❤️ by Rizky & Ayunda
+                    </p>
+                </div>
             </footer>
         </main>
     );
