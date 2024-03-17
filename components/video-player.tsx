@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { VolumeOffIcon, VolumeOnIcon } from './cores/icons';
 
 export default function VideoPlayer() {
-    const [muted, setMuted] = useState(true);
+    const [muted, setMuted] = useState(false);
 
     const onClick = () => {
         setMuted(!muted);
@@ -34,8 +34,11 @@ export default function VideoPlayer() {
                 className="absolute top-4 left-4 z-1 flex gap-1 items-center px-2 py-1 rounded-lg text-xs bg-gray-50/90 active:bg-gray-100"
                 onClick={onClick}
             >
-                {muted ? <VolumeOffIcon /> : <VolumeOnIcon />}
-                {muted ? 'Unmute' : 'Mute'}
+                {muted ? (
+                    <VolumeOffIcon className="size-5" />
+                ) : (
+                    <VolumeOnIcon className="size-5" />
+                )}
             </button>
         </div>
     );
