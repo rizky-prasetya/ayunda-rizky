@@ -23,7 +23,7 @@ export async function POST(req: Request) {
 
     const docRef = await addDoc(collection(db, 'comments'), {
         ...data,
-        createTime: formatDate(new Date(), 'yyyy-M-d h:m:s'),
+        createTime: formatDate(new Date(), 'yyyy-MM-dd hh:mm:ss'),
     });
     const docSnap = await getDoc(docRef);
     const addedData = {
