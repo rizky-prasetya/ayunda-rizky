@@ -13,7 +13,7 @@ export default function MapInfo() {
     return (
         <div className="relative">
             <p className="text-sm">
-                <b>Gedung Putih Jami'ah</b>
+                <b>Gedung Putih Jami&apos;ah</b>
                 <br />
                 Jl. Tj. Raya II, Saigon, Kec. Pontianak Timur, Kota Pontianak
                 <br />

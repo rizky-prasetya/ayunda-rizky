@@ -44,7 +44,7 @@ export default function Home() {
                         <div className="mt-4 text-xs text-gy-6 leading-7">
                             Sabtu, 20 Juli 2024 Pukul 08:00 - 17:00 WIB
                             <br />
-                            Gedung Putih Jami'ah
+                            Gedung Putih Jami&apos;ah
                         </div>
                     </div>
                 </Intersect>
@@ -95,7 +95,8 @@ export default function Home() {
                         <br />
                         untuk membentuk rumah tangga yang Sakinah, Mawaddah
                         <br />
-                        wa Rahmah, kami mohon do'a agar senantiasa diberikan
+                        wa Rahmah, kami mohon do&apos;a agar senantiasa
+                        diberikan
                         <br />
                         kelancaran dan keberkahan
                     </div>
@@ -169,10 +170,10 @@ export default function Home() {
                                     </div>
                                     <div className="flex gap-0.5">
                                         <span>
-                                            Gedung Putih Jami'ah (Jl. Tj. Raya
-                                            II, Saigon, Kec. Pontianak Timur,
-                                            Kota Pontianak Kalimantan Barat
-                                            78242)
+                                            Gedung Putih Jami&apos;ah (Jl. Tj.
+                                            Raya II, Saigon, Kec. Pontianak
+                                            Timur, Kota Pontianak Kalimantan
+                                            Barat 78242)
                                         </span>
                                     </div>
                                 </div>
@@ -191,10 +192,10 @@ export default function Home() {
                                     </div>
                                     <div className="flex gap-0.5">
                                         <span>
-                                            Gedung Putih Jami'ah (Jl. Tj. Raya
-                                            II, Saigon, Kec. Pontianak Timur,
-                                            Kota Pontianak Kalimantan Barat
-                                            78242)
+                                            Gedung Putih Jami&apos;ah (Jl. Tj.
+                                            Raya II, Saigon, Kec. Pontianak
+                                            Timur, Kota Pontianak Kalimantan
+                                            Barat 78242)
                                         </span>
                                     </div>
                                 </div>
