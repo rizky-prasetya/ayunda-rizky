@@ -118,8 +118,8 @@ export function PearlIcon(props: React.HTMLProps<HTMLImageElement>) {
     return (
         <img
             {...props}
-            src="https://github.com/bepyan/charlan-byul/assets/65283190/2a6bfd15-e502-4d61-b94d-eec5758061a4"
-            alt="진주"
+            src="https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/263515567-2a6bfd15-e502-4d61-b94d-eec5758061a4.png?alt=media&token=478ff7cd-6f19-48fd-a23e-fd2844a866a0"
+            alt="Pearl Icon"
             className={cn('w-3 h-3 aspect-square', props.className)}
         />
     );

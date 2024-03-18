@@ -8,7 +8,7 @@ import { PreloadResources } from './preload';
 import { fontVariable } from './fonts';
 
 const config = {
-    title: 'Rizky Prasetya ♥ Ayunda Maharani Wedding',
+    title: 'Ayunda Maharani ♥ Rizky Prasetya Wedding',
     description: 'Sabtu, 20 Juli 2024',
 };
 
@@ -19,7 +19,8 @@ export const metadata: Metadata = {
         title: config.title,
         description: config.description,
         images: [
-            'https://github.com/bepyan/charlan-byul/assets/65283190/a80e24cb-4501-4106-9019-5e37effc6fea',
+            'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/POLAROID.png?alt=media&token=acb41b3d-8ba0-4254-ba9b-b15e890b91a8',
+            // 'https://github.com/bepyan/charlan-byul/assets/65283190/a80e24cb-4501-4106-9019-5e37effc6fea',
         ],
     },
     viewport: {

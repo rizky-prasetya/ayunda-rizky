@@ -34,11 +34,11 @@ export default function Home() {
                     <div className="text-center">
                         <div className="flex justify-center items-center gap-1">
                             <span className="font-serif_en font-bold text-xl">
-                                Rizky Prasetya
+                                Ayunda Maharani
                             </span>
                             <DividerIcon />
                             <span className="font-serif_en font-bold text-xl">
-                                Ayunda Maharani
+                                Rizky Prasetya
                             </span>
                         </div>
                         <div className="mt-4 text-xs text-gy-6 leading-7">
@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="mt-10">
                     <img
                         className="w-full h-full aspect-4/3 pointer-events-none"
-                        src="https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/POLAROID.png?alt=media&token=ec371b8f-d603-47dc-9448-ff36407d0bf8"
+                        src="https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/POLAROID.png?alt=media&token=acb41b3d-8ba0-4254-ba9b-b15e890b91a8"
                         alt=""
                     />
                 </div>
@@ -106,30 +106,6 @@ export default function Home() {
                             <div className="flex">
                                 <div className="flex items-center justify-center">
                                     <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-6">
-                                        Rizky Prasetya
-                                    </span>
-                                </div>
-                                <div className="flex items-center justify-center">
-                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                                    <span className="flex-shrink-0 w-16 text-xs text-gy-6">
-                                        Putra dari
-                                    </span>
-                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
-                                </div>
-                                <div className="flex items-center justify-center">
-                                    <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
-                                        <div className="flex gap-0.5">
-                                            <span>Bapak Suparno</span>
-                                        </div>
-                                        <div className="flex gap-0.5">
-                                            <span>Ibu Jumiati (Alm)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="flex">
-                                <div className="flex items-center justify-center">
-                                    <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-6">
                                         Ayunda Maharani
                                     </span>
                                 </div>
@@ -147,6 +123,30 @@ export default function Home() {
                                         </div>
                                         <div className="flex gap-0.5">
                                             <span>Ibu Lisna</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex">
+                                <div className="flex items-center justify-center">
+                                    <span className="flex-shrink-0 w-14 font-serif_en font-bold mr-6">
+                                        Rizky Prasetya
+                                    </span>
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                    <span className="flex-shrink-0 w-16 text-xs text-gy-6">
+                                        Putra dari
+                                    </span>
+                                    <DividerIcon className="flex-shrink-0 text-gy-8 mt-[2.5px] mr-2" />
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <div className="text-xs text-gy-6 mt-[1px] space-y-1.5">
+                                        <div className="flex gap-0.5">
+                                            <span>Bapak Suparno</span>
+                                        </div>
+                                        <div className="flex gap-0.5">
+                                            <span>Ibu Jumiati (Alm)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -208,8 +208,8 @@ export default function Home() {
                 <div className="relative select-none pointer-events-none">
                     <img
                         className="w-full h-full aspect-4/5"
-                        src="https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/TANGGAL.png?alt=media&token=bb4d3057-4669-4fbc-890e-1bd920ee70cf"
-                        alt="Rizky & Ayunda"
+                        src="https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/TANGGAL.png?alt=media&token=9a53183f-9c7b-42b3-b3b6-5bfa3c750c03"
+                        alt="Ayunda & Rizky"
                     />
                 </div>
             </section>
@@ -217,22 +217,22 @@ export default function Home() {
             <section>
                 <div className="my-16 select-none pointer-events-none">
                     <img
-                        src="https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/WEDDING.gif?alt=media&token=97af3d72-96c4-474d-ac15-7bf428673313"
-                        alt="Rizky & Ayunda"
+                        src="https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/WEDDING.gif?alt=media&token=8c22a751-ff24-462a-97a6-29ed629ef37a"
+                        alt="Ayunda & Rizky"
                     />
                 </div>
                 <InstaGallery
                     images={[
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0777.JPG?alt=media&token=e8800223-5987-4c05-be5b-dd04bcb32258',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0785.JPG?alt=media&token=51bbe318-0d0f-448e-9901-2ad328752ddf',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0786.JPG?alt=media&token=1f13ebe9-c909-4941-968f-a5451b1f80c1',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0787.JPG?alt=media&token=09e2e086-b0a3-448a-8656-68fe4395bede',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0788.JPG?alt=media&token=b30a6028-aa94-46f0-82fc-a4c0a34c5e10',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0789.JPG?alt=media&token=a943a03f-b979-422b-9de7-fa6e38c518f2',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0790.JPG?alt=media&token=de461183-44f6-43dd-8ad3-6553f633e8df',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0791.JPG?alt=media&token=96cd95c8-ed00-426c-8a19-a05c823e1b41',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0792.JPG?alt=media&token=57ac9f96-8c62-4117-b976-a84b5d1b0850',
-                        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/IMG_E0793.JPG?alt=media&token=5fce0654-9efc-4324-9736-0c181586f9d9',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0777.JPG?alt=media&token=6c245d47-4f3e-449b-958b-00a534f2589d',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0785.JPG?alt=media&token=541145bb-3e3f-4736-b945-17765a0cb855',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0786.JPG?alt=media&token=bd9f903a-d076-4002-8e09-22919d093cbf',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0787.JPG?alt=media&token=3bcd66f7-1736-4f4c-81ea-d3f57660c249',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0788.JPG?alt=media&token=df350faa-52ce-4a96-88e1-39bb4807ab4f',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0789.JPG?alt=media&token=183bcc6d-2391-455d-bb0a-1b27f974eabb',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0790.JPG?alt=media&token=7bdc22fe-55f9-46a8-a024-b5bdbe08c3b4',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0791.JPG?alt=media&token=99a76218-e027-4f23-9df0-a2afb5f0c8d9',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0792.JPG?alt=media&token=2ed9009f-95bc-4d9d-95a8-646a06179b9f',
+                        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/IMG_E0793.JPG?alt=media&token=74d9cc63-21e4-44b9-ba29-8fc92bb74404',
                     ]}
                 />
             </section>
@@ -265,22 +265,6 @@ export default function Home() {
                     </h2>
                     <div className="mt-8 mx-8">
                         <BankAccordion
-                            title="Nomor rekening mempelai pria"
-                            bankList={[
-                                {
-                                    holder: 'Rizky Prasetya',
-                                    bank: 'BCA',
-                                    number: '1002-563-763111',
-                                },
-                                {
-                                    holder: 'Rizky Prasetya',
-                                    bank: 'BSI',
-                                    number: '034-21-0812-232',
-                                },
-                            ]}
-                        />
-                        <BankAccordion
-                            className="mt-2"
                             title="Nomor rekening mempelai wanita"
                             bankList={[
                                 {
@@ -292,6 +276,22 @@ export default function Home() {
                                     holder: 'Ayunda Maharani',
                                     bank: 'BSI',
                                     number: '605102-04-117338',
+                                },
+                            ]}
+                        />
+                        <BankAccordion
+                            className="mt-2"
+                            title="Nomor rekening mempelai pria"
+                            bankList={[
+                                {
+                                    holder: 'Rizky Prasetya',
+                                    bank: 'BCA',
+                                    number: '1002-563-763111',
+                                },
+                                {
+                                    holder: 'Rizky Prasetya',
+                                    bank: 'BSI',
+                                    number: '034-21-0812-232',
                                 },
                             ]}
                         />
@@ -326,7 +326,7 @@ export default function Home() {
                         . All rights reserved.
                     </p>
                     <p className="text-[11px] md:text-xs">
-                        Made with ❤️ by Rizky & Ayunda
+                        Made with ❤️ by Ayunda & Rizky
                     </p>
                 </div>
             </footer>

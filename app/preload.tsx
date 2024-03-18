@@ -17,19 +17,19 @@ export function PreloadResources() {
     //   { as: 'video' },
     // );
     ReactDOM.preload(
-        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/POLAROID.png?alt=media&token=ec371b8f-d603-47dc-9448-ff36407d0bf8',
+        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/POLAROID.png?alt=media&token=acb41b3d-8ba0-4254-ba9b-b15e890b91a8',
         { as: 'image' },
     );
     ReactDOM.preload(
-        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/263515567-2a6bfd15-e502-4d61-b94d-eec5758061a4.png?alt=media&token=29fb7196-a38c-42aa-bf70-3641072655bc',
+        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/263515567-2a6bfd15-e502-4d61-b94d-eec5758061a4.png?alt=media&token=478ff7cd-6f19-48fd-a23e-fd2844a866a0',
         { as: 'image' },
     );
     ReactDOM.preload(
-        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/TANGGAL.png?alt=media&token=bb4d3057-4669-4fbc-890e-1bd920ee70cf',
+        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/TANGGAL.png?alt=media&token=9a53183f-9c7b-42b3-b3b6-5bfa3c750c03',
         { as: 'image' },
     );
     ReactDOM.preload(
-        'https://firebasestorage.googleapis.com/v0/b/rizky-ayunda.appspot.com/o/GIFFF.gif?alt=media&token=be3320e9-656c-4858-abe8-50a6cb01241b',
+        'https://firebasestorage.googleapis.com/v0/b/ayunda-rizky.appspot.com/o/WEDDING.gif?alt=media&token=8c22a751-ff24-462a-97a6-29ed629ef37a',
         { as: 'image' },
     );
 
