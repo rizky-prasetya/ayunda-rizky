@@ -6,7 +6,6 @@ import dynamic from 'next/dynamic';
 import { DownIcon } from './cores/icons';
 import { useInstaGalleryStore } from '~/libs/insta-gallery-store';
 import Intersect from './cores/intersect';
-import { cn } from '~/libs/utils';
 
 const InstalGalleryDialog = dynamic(() => import('./insta-gallery-dialog'), {
     ssr: false,

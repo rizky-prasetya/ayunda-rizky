@@ -14,6 +14,7 @@ import { useState } from 'react';
 import { CommentPost } from '~/libs/types';
 import Button from './cores/button';
 import { toast } from 'react-hot-toast';
+import SelectGroup from './select';
 
 export default function CommentFormDialog() {
     const [open, setOpen] = useState(false);
@@ -35,6 +36,11 @@ export default function CommentFormDialog() {
             password: target.password.value,
             message: target.message.value.replace(/\n\r?/g, '\n\r'),
         };
+
+        if (!comment.message) {
+            toast.error('Pesan tidak boleh kosong.');
+            return;
+        }
 
         if (!comment.message) {
             toast.error('Pesan tidak boleh kosong.');
@@ -78,6 +84,24 @@ export default function CommentFormDialog() {
                                 className="flex-[2]"
                             />
                         </div>
+                        <SelectGroup
+                            className="mt-3"
+                            selectList={[
+                                {
+                                    text: 'Konfirmasi Kehadiran',
+                                    value: '',
+                                    disabled: true,
+                                },
+                                {
+                                    text: 'Hadir',
+                                    value: 'true',
+                                },
+                                {
+                                    text: 'Tidak Hadir',
+                                    value: 'false',
+                                },
+                            ]}
+                        />
                         <Textarea
                             disabled={loading}
                             name="message"
