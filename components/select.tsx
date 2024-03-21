@@ -5,7 +5,11 @@ import { cn } from '~/libs/utils';
 export default function SelectGroup({
     selectList,
     className,
-}: {
+    ...props
+}: React.DetailedHTMLProps<
+    React.SelectHTMLAttributes<HTMLSelectElement>,
+    HTMLSelectElement
+> & {
     selectList: { text: string; value: string; disabled?: boolean }[];
     className?: string;
 }) {
@@ -17,9 +21,10 @@ export default function SelectGroup({
                 value={selectedOption}
                 onChange={(e) => setSelectedOption(e.target.value)}
                 className={cn(
-                    'flex h-10 w-full rounded-md border px-3 py-2 text-sm ring-gray-200 placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
+                    'flex h-10 w-full rounded-md border px-3 py-2 text-sm ring-gray-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
                     className,
                 )}
+                {...props}
             >
                 {selectList.map(({ text, value, disabled }, i) => (
                     <option

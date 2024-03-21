@@ -29,23 +29,25 @@ export default function CommentFormDialog() {
             name: { value: string };
             password: { value: string };
             message: { value: string };
+            attendance: { value: string };
         };
+
+        if (!target.message.value?.trim()?.length) {
+            toast.error('Pesan tidak boleh kosong.');
+            return;
+        }
+
+        if (!target.attendance.value.trim()?.length) {
+            toast.error('Mohon konfirmasi kehadiran.');
+            return;
+        }
 
         const comment: CommentPost = {
             name: !!target.name.value ? target.name.value : 'Anonim',
             password: target.password.value,
             message: target.message.value.replace(/\n\r?/g, '\n\r'),
+            attendance: target.attendance.value.toLowerCase() === 'true',
         };
-
-        if (!comment.message) {
-            toast.error('Pesan tidak boleh kosong.');
-            return;
-        }
-
-        if (!comment.message) {
-            toast.error('Pesan tidak boleh kosong.');
-            return;
-        }
 
         setLoading(true);
         await toast.promise(commentAPI.post(comment), {
@@ -85,6 +87,7 @@ export default function CommentFormDialog() {
                             />
                         </div>
                         <SelectGroup
+                            name="attendance"
                             className="mt-3"
                             selectList={[
                                 {
