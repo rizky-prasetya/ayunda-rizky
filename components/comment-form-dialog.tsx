@@ -90,11 +90,11 @@ export default function CommentFormDialog() {
                             name="attendance"
                             className="mt-3"
                             selectList={[
-                                // {
-                                //     text: 'Konfirmasi Kehadiran',
-                                //     value: '',
-                                //     disabled: true,
-                                // },
+                                {
+                                    text: 'Konfirmasi Kehadiran',
+                                    value: '',
+                                    disabled: true,
+                                },
                                 {
                                     text: 'Hadir',
                                     value: 'true',
