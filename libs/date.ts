@@ -13,7 +13,6 @@ export function formatDate(date: Date, format: string) {
                 (v.length > 1 ? '0' : '') + z[v.slice(-1) as keyof typeof z]
             ).slice(-2),
         )
-
         .replace(/(y+)/g, (v) =>
             date.getFullYear().toString().slice(-v.length),
         );
