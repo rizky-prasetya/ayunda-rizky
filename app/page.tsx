@@ -7,6 +7,7 @@ import InstaGallery from '~/components/insta-gallery';
 import MapInfo from '~/components/map-info';
 import Share from '~/components/share';
 import VideoPlayer from '~/components/video-player';
+import Countdown from '~/components/countdown';
 
 export default function Home() {
     return (
@@ -20,7 +21,8 @@ export default function Home() {
                 </Intersect>
             </section> */}
             <section className="my-20">
-                <VideoPlayer />
+                {/* <VideoPlayer /> */}
+                <Countdown />
             </section>
             {/* */}
             <section className="bg-white mt-20">
