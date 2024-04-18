@@ -20,10 +20,9 @@ export default function Home() {
                     </div>
                 </Intersect>
             </section> */}
-            <section className="my-20">
-                {/* <VideoPlayer /> */}
-                <Countdown />
-            </section>
+            {/* <section className="my-20">
+                <VideoPlayer />
+            </section> */}
             {/* */}
             <section className="bg-white mt-20">
                 <Intersect>
@@ -206,6 +205,18 @@ export default function Home() {
                     </div>
                 </Intersect>
             </section>
+
+            <section className="mt-20">
+                <Intersect>
+                    <h2 className="text-center font-serif_en font-bold text-xl">
+                        Hitung Mundur
+                    </h2>
+                    <div className="mt-8">
+                        <Countdown />
+                    </div>
+                </Intersect>
+            </section>
+
             {/* 달력 */}
             <section className="mt-20">
                 <div className="relative select-none pointer-events-none">

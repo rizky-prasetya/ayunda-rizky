@@ -27,25 +27,25 @@ export default function Countdown() {
     const format = (value: number) => `0${value}`.slice(-2);
 
     return (
-        <div className="flex items-center justify-center space-x-4 mt-4">
+        <div className="flex items-center justify-center space-x-2 md:space-x-3">
             <div className="flex flex-col items-center px-4">
-                <span className="text-4xl leading-7 lg:text-5xl">{format(days)}</span>
-                <span className="text-gray-400 mt-2">Hari</span>
+                <span className="text-3xl leading-7 lg:text-4xl">{format(days)}</span>
+                <span className="text-xs text-gy-6 mt-3">Hari</span>
             </div>
-            <span className="w-[1px] h-24 bg-gray-400"></span>
+            <span className="w-[0.8px] h-24 bg-gray-400"></span>
             <div className="flex flex-col items-center px-4">
-                <span className="text-4xl leading-7 lg:text-5xl">{format(hours)}</span>
-                <span className="text-gray-400 mt-2">Jam</span>
+                <span className="text-3xl leading-7 lg:text-4xl">{format(hours)}</span>
+                <span className="text-xs text-gy-6 mt-3">Jam</span>
             </div>
-            <span className="w-[1px] h-24 bg-gray-400"></span>
+            <span className="w-[0.8px] h-24 bg-gray-400"></span>
             <div className="flex flex-col items-center px-4">
-                <span className="text-4xl leading-7 lg:text-5xl">{format(minutes)}</span>
-                <span className="text-gray-400 mt-2">Menit</span>
+                <span className="text-3xl leading-7 lg:text-4xl">{format(minutes)}</span>
+                <span className="text-xs text-gy-6 mt-3">Menit</span>
             </div>
-            <span className="w-[1px] h-24 bg-gray-400"></span>
+            <span className="w-[0.8px] h-24 bg-gray-400"></span>
             <div className="flex flex-col items-center px-4">
-                <span className="text-4xl leading-7 lg:text-5xl">{format(seconds)}</span>
-                <span className="text-gray-400 mt-2">Detik</span>
+                <span className="text-3xl leading-7 lg:text-4xl">{format(seconds)}</span>
+                <span className="text-xs text-gy-6 mt-3">Detik</span>
             </div>
         </div>
     );
