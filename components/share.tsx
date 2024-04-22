@@ -19,8 +19,7 @@ import Script from 'next/script';
 
 const URL =
     process.env.NODE_ENV === 'production'
-        ? // ? 'https://charlan-byul.vercel.app/'
-          'http://localhost:3000/'
+        ? 'https://ayunda-rizky.vercel.app/'
         : 'http://localhost:3000/';
 
 export default function Share() {
